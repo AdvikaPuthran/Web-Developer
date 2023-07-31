@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+            crossorigin="anonymous">
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+            crossorigin="anonymous"></script>
+        <title>Document</title>
+        <style>
+    .container {
+        background-color: bisque;
+        border: 1;
+    }
+    .row
+    {
+        border: 1px solid;
+    }
+   </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="container">
+                        <fieldset border="1">
+                            <legend>Login</legend>
+                            UserName : <input class="accordion" type="text"></input>
+                            Password : <input type="text"></input><br>
+                            <button type="button">Signin</button>
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="row">
+                        <div class="col-2">Home</div>
+                        <div class="col-2">About Us</div>
+                        <div class="col-2">Contact</div>
+                        <div class="col-2">Address</div>
+                    </div>
+                    <div class="container">
+                        <fieldset> 
+                            <legend>Fill Your details</legend>
+                        <p>
+                        <label>Enter your First name:</label><input type="text"></input><input type="reset"></input>
+                        </p>
+                        <p>
+                        <label>Enter your Last name:</label> <input type="text"></input>
+                        </p>
+                        <p>
+                        Enter your age: <input type="number" min="1" max="100" step="0.1"></input>
+                        </p>
+                        <p>
+                        Enter your email : <input type="text" aria-multiline="true" placeholder="e.g.xyz@gmail.com"></input>
+                        </p>
+                        <p>
+                            Enter your address: <textarea type="text"></textarea>
+                        </p>
+                        <p>
+                        Enter your contact number: <input type="text" placeholder="+00-0000000000"></input>
+                        </p>
+                        <p>Gender : <input type="radio" name="gender" vlaue="Male"><label for="gender">Male</label> 
+                                    <input type="radio" name="gender"><label for="gender">Female</label></p> 
+                        <p>Select your pizza toppings: 
+                            <input type="checkbox"><label for="toppings">cheese</label>
+                            <input type="checkbox"><label for="toppings">sweet corn</label>
+                            <input type="checkbox"><label for="toppings">capsicum</label>
+                            <input type="checkbox"><label for="toppings">toffu</label>
+                        </p>
+                        <p>Select State :
+                            <select>
+                                <option value="0">---Select---</option>
+                                <option value="1">Andhrapradesh</option>
+                                <option value="2">Maharashtra</option>
+                                <option value="3">Orissa</option>
+                                <option value="4">West Bengal</option>
+                                <option value="5">Tamilnadu</option>
+                            </select>
+                        </p>
+                        <p>
+                            
+                        </p>
+                        <button type="button" onclick="window.location.href='TextBox.html'">Submit</button>
+                        <button type="button" onclick="trail()">Trail</button>
+                    </fieldset>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
