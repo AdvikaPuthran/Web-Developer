@@ -1,0 +1,14 @@
+ol.li{
+    background-color:orange;
+}
+ol.li1{
+    background-color: blanchedalmond;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    width:25%;
+    height:25%;
+    border: 2px;
+}
+ul{
+    background-color: aquamarine;
+}
