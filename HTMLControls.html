@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    
+<form action="TextBox.html" method="get">
+    <fieldset> 
+        <legend>Fill Your details</legend>
+    <p>
+    <label>Enter your First name:</label><input type="text"></input><input type="reset"></input>
+    </p>
+    <p>
+    <labe>Enter your Last name:</label> <input type="text"></input>
+    </p>
+    <p>
+    Enter your age: <input type="number" min="1" max="100" step="0.1"></input>
+    </p>
+    <p>
+    Enter your email : <input type="text" aria-multiline="true" placeholder="e.g.xyz@gmail.com"></input>
+    </p>
+    <p>
+        Enter your address: <textarea type="text"></textarea>
+    </p>
+    <p>
+    Enter your contact number: <input type="text" placeholder="+00-0000000000"></input>
+    </p>
+    <p>Gender : <input type="radio" name="gender" vlaue="Male"><label for="gender">Male</label> 
+                <input type="radio" name="gender"><label for="gender">Female</label></p> 
+    <p>Select your pizza toppings: 
+        <input type="checkbox"><label for="toppings">cheese</label>
+        <input type="checkbox"><label for="toppings">sweet corn</label>
+        <input type="checkbox"><label for="toppings">capsicum</label>
+        <input type="checkbox"><label for="toppings">toffu</label>
+    </p>
+    <p>Select State :
+        <select>
+            <option value="0">---Select---</option>
+            <option value="1">Andhrapradesh</option>
+            <option value="2">Maharashtra</option>
+            <option value="3">Orissa</option>
+            <option value="4">West Bengal</option>
+            <option value="5">Tamilnadu</option>
+        </select>
+    </p>
+    <p>
+        
+    </p>
+    <button type="button" onclick="window.location.href='TextBox.html'">Submit</button>
+    <button type="button" onclick="trail()">Trail</button>
+</fieldset>
+</form>
+
+</body>
+</html>
